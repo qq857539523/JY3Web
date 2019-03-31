@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<link rel="icon" href="tb.ico" type="image/x-icon" />
+		<title>快乐中心</title>
+		<link rel="stylesheet" type="text/css" href="css/happy.css" />
+		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+	</head>
+
+	<body>
+		<div id="div0">
+			<div id="div1">
+				<div id="div11">
+					<a href="homepage.html#zz">
+						<img width="250px" height="250px" src="img/logo.svg" />
+					</a>
+					<a name="kl"></a>
+				</div>
+				<div id="div12">
+					<span id="span12">平台·充值中心</span>
+				</div>
+				<div id="div13">
+					<img width="100px" height="150px" src="img/横竖切换（竖）.svg" />
+					<div id="div131">
+						<ul>
+							<li>客服中心</li>
+							<li>充值中心</li>
+							<li>登陆</li>
+							<li>注册</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="div2">
+				<div id="div21">
+					<div class="class211" id="div211">手机扫码支付</div>
+					
+				</div>
+				<div id="div22">
+					<div id="div221">
+						<form width="500px" height="100px">
+
+							充值账号：<input style="width:400px;height: 70px;font-size: 50px;" type="text" />
+						</form>
+					</div>
+					<div id="div2211">
+						收款人：
+					</div>
+				</div>
+				<div id="div221">
+					充值金额：<input style="width: 30px;height: 30px;" name="sex" type="radio" checked="checked" class="class0" />50
+					<input style="width: 30px;height: 30px;" class="class0" name="sex" type="radio">100
+					<input style="width: 30px;height: 30px;" class="class0" name="sex" type="radio">300
+					<input style="width: 30px;height: 30px;" class="class0" name="sex" type="radio">500
+					<input style="width: 30px;height: 30px;" class="class0" name="sex" type="radio">1000
+					<input style="width: 30px;height: 30px;" id="input0" name="sex" type="radio">其他
+					<input style="width:500px;height: 100px;font-size:50px;" id="input1" type="text" /><span id="span010">(请输入10-10000整数)</span>
+				</div>
+				<div id="div23">验证码：<input style="width:400px;height: 70px;font-size: 50px;" type="text" /></div>
+				<div id="div24">
+					<input class="class24" style="width: 30px;height: 30px;" name="fw" type="radio" checked="checked">支付宝
+					<input class="class24" style="width: 30px;height: 30px;" name="fw" type="radio">微信
+				</div>
+				<div>
+					<button style="width: 400px;height:70px;font-size: 50px;">确认支付</button>
+				</div>
+				<div id="span25">
+
+					<span>重要提示：未成年人必须在监护人不知时悄悄咪咪使用本网站充值服务！</span>
+				</div>
+			</div>
+			<div id="div3">
+			</div>
+
+				
+			</div>
+
+		</div>
+	</body>
+	<script>
+		$(function() {
+			$("#input0").click(function() {
+				$("#input1").css("display", "inline-block");
+				$("#span010").css("display", "inline-block")
+			})
+			$(".class0").click(function() {
+				$("#input1").css("display", "none");
+				$("#span010").css("display", "none");
+			})
+
+			$("#div13").click(function() {
+				$("#div131").toggle();
+			})
+		})
+	</script>
+
+</html>

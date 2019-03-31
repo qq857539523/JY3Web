@@ -1,0 +1,255 @@
+.item0{
+	/*display: flex;
+	flex-direction: column;*/
+	width: 100%;
+}
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+#div1 {
+	width: 100%;
+	height: 100%;
+	overflow:scroll;
+}
+
+#div11 {
+	flex: 0.2;
+	display: flex;
+}
+
+
+
+.class111 {
+	flex: 0.2;
+	display: flex;
+	flex-direction: column;
+}
+
+#div112 {
+	display: flex;
+	font-size: 30px;
+}
+
+#div113 {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#ul111211{
+	background-color: #E0E0E0;
+	color: #000000;
+	font-size: 50px;
+	position:absolute;
+	margin-top:50px;
+	margin-left: 5px;
+	left:0px;
+	top:180px;
+}
+.li1:hover{
+	background-color: crimson;
+	color: aliceblue;
+}
+
+
+
+.class1111 {
+	flex: 0.8;
+	border: 1px solid black;
+}
+
+.class1112 {
+	flex: 0.2;
+	background: ;
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+	color: #E0E0E0;
+}
+
+.class11122 {
+	font-size: 30;
+}
+
+.class12:hover {
+	background-color: crimson;
+	color: aliceblue;
+}
+
+.class12 {
+	background-color: #E0E0E0;
+	color: #000000;
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+}
+
+.class13 {
+	/*background-color: crimson;*/
+	/*color: aliceblue;*/
+	display: flex;
+	justify-content: center;
+}
+
+#div1120{
+	flex: 0.25;
+}
+
+#div1122 {
+	flex: 0.25;
+}
+
+#div1123 {
+	flex: 0.25;
+}
+
+#div1124 {
+	flex: 0.25;
+}
+
+#div1110 {
+	flex: 0.8;
+	/*border: 1px solid black;*/
+	display: flex;
+	flex-direction: column;
+}
+
+#div1131 {
+	width: 50%;
+	height: 50%;
+	/*border: 1px solid black;*/
+	display: flex;
+	align-items: center;
+	font-size: 50px;
+}
+
+#div1132 {
+	width: 50%;
+	height: 50%;
+	margin: 10px;
+	align-items: center;
+	/*border: 1px solid black;*/
+	font-size: 50px;
+}
+
+#div12 {
+	flex: 0.7;
+	border: 1px solid black;
+	display: flex;
+	flex-direction:column;
+	
+}
+#div121{
+	
+	flex: 0.25;
+	width: 980px;
+	height: 600px;
+	background-image: url(../img/三笠.jpg);
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.class1211{
+	font-size: 80px;
+}
+#div1211{
+	padding-top: 80px;
+	padding-left: 100px;
+	color: #DC143C;
+	font-weight:  bold;
+}
+#div1212{
+	padding-left: 200px;
+	color: chartreuse;
+	font-weight:  bold;
+}
+#div1213{
+	padding-left: 300px;
+	color: blue;
+	font-weight:  bold;
+}
+#div122{
+	width: 980px;
+	height: 667px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	
+}
+#div12021{
+	font-size: 50px;
+	color: #DC143C;
+	font-weight: bold;
+}
+#div12022 img{
+	width: 950px;
+	height: 630px;
+}
+#div1203{
+	width: 100%;
+	height:800px;
+	/*border: 2px solid black;*/
+	margin-top: 30px;
+	display: flex;
+	flex-direction:column;
+	align-items:center;
+}
+#span12031{
+	font-size: 50px;
+	font-weight: bold;
+	
+}
+#div12032{
+	width: 100%;
+	height:100%
+}
+#div12032 img{
+	width:100%;
+	height:100%;
+}
+#div1024{
+	width: 100%;
+	height: 100%;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+
+#span12041{
+	font-size: 50px;
+	font-weight: bold;
+	color: #7FFF00;
+	display:flex;
+	justify-content:center;
+}
+#div12042{
+	width: 100%;
+	height: 100%;
+}
+
+#div13 {
+	width: 100%;
+	height: 30px;
+	/*border: 1px solid black;*/
+	
+}
+#div131{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+#span1311{
+	font-size: 20px;
+	
+}

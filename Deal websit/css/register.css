@@ -1,0 +1,66 @@
+body{
+	/*width: 100%;
+	height: 100%;*/
+	/*display: flex;*/
+	/*justify-content: center;
+	align-items: center;	*/
+	position: fixed;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+}
+#div0{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/注册1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	flex-direction:column;
+}
+
+
+#div1{
+	/*margin-left:10%;*/
+	width: 100%;
+	height:100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+	
+	background-repeat: no-repeat;
+}
+#a1{
+	width: 500px;
+	height: 200px;
+}
+#a11{
+	width: 100%;
+	height: 100%;
+}
+.class11{
+	/*flex: 0.2;*/
+	width: 500px;
+	height:50px;
+	display: flex;
+	font-size: 50px;
+	font-weight: bold;
+	margin-bottom:80px;
+}
+.class12{
+	font-size: 50px;
+}
+.class13{
+	width: 300px;
+	height: 50px;
+}
+/*#yz11{*/
+	display: flex;
+}
+/*#null{
+	width:200px;
+	height: 200px;
+	border: 1px solid black;
+}*/
